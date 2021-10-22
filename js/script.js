@@ -1,18 +1,31 @@
-const LinkisSocialMedia = {
-    github: 'JeffersonSCamposcoder',
-    linkedin: 'in/yasmin-horbach-a5517419b/',
-    instagram: 'yasminhorbach/',
-    facebook: 'yasmin.horbach'
-}
+// const LinksSocialMedia = {
+//     github: 'jakeliny2',
+//     linkedin: 'in/jakelinygracielly/',
+//     instagram: 'jakeliny.gracielly/',
+//     facebook: 'Perfilnaoencontrado'
+// }
 
-function changeSocialMediaLinks() {}
+// function changeSocialMediaLinks() {}
 
-for (let li of idSocialLinks.children) {
-    const social = li.getAttribute('class')
+// for (let li of idSocialLinks.children) {
+//     const social = li.getAttribute('class')
 
-    li.children[0].href = `https://${social}.com/${LinkisSocialMedia[social]}`
+//     li.children[0].href = `https://${social}.com/${LinksSocialMedia[social]}`
+// }
 
-    //alert(li.children[0].href)
-}
+// changeSocialMediaLinks()
 
-changeSocialMediaLinks()
+// function getGitHubProfilesInfos() {
+//     const url = `https://api.github.com/users/${LinksSocialMedia.github}`
+//     fetch(url)
+//         .then(response => response.json())
+//         .then(data => {
+//             idUseName.textContent = data.name
+//             idUserBio.textContent = data.bio
+//             idUserLink.href = data.html_url
+//             idUserImage.src = data.avatar_url
+//             idUserLogin.textContent = data.login
+//         })
+// }
+
+// getGitHubProfilesInfos()
